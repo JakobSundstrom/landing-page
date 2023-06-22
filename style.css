@@ -80,8 +80,9 @@ button{
     border: none;
     width: 100px;
     margin-top: 5%;
-    padding: 8px;
+    padding: 5px 20px;
     font-weight: 550px;
+    width: 120px;
 }
 
 .content-info{
@@ -159,3 +160,43 @@ button{
     margin-left: 55%;
     font-weight: bolder;
 }
+
+.cta{
+    display: flex;
+    background-color: white;
+    height: 400px;
+}
+
+.blue-box{
+    background-color: #3882F6;
+    display: flex;
+    margin: 70px  auto 200px auto;
+    padding: 40px;
+    border-radius: 10px;
+    color: white;
+
+}
+
+.cta-head{
+    font-weight: bold;
+}
+
+.cta-button{
+    margin: 0px 100px;
+    border: 2px  solid white;
+    border-radius: 10px;
+    padding-top: -7px;
+}
+
+.footer {
+    height: 72px;
+    width: 1217px;
+    bottom: 0px;
+    background: #1F2937;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    text-align: center;
+    justify-content: center;
+  }
