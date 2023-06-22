@@ -1,7 +1,8 @@
 body{
-
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: #1F2937;
+    max-width: 1440px;
+    margin: 0px 10%;
 }
 .header{
     color: white;
@@ -11,7 +12,7 @@ body{
     align-items: center;
     margin: 10%;
     margin-bottom: 5%;
-    margin-top: 0px;
+    margin-top: 20px;
 }
 
 .header .logo{
@@ -37,6 +38,7 @@ body{
     justify-content: center;
     height: 400px;
     margin: 10%;
+    max-height: 400px;
 }
 
 .content .image{
@@ -83,7 +85,7 @@ button{
 }
 
 .content-info{
-    height: 600px;
+    height: 450px;
     background-color: white;
 }
 
@@ -92,43 +94,68 @@ button{
     justify-content: center;
     align-items: center;
     display: flex;
-    background-color: white;
     margin:  -180px 0px 0px 0px;
     height: 100px;
     font-size: 36px;
     font-weight: bolder;
-    padding: 30px;
+    padding-top: 0px;
 
 }
 
 .display-box{
-    margin: 10px 30%;
-    height: 400px;
+    height: 200px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    flex-direction: column;
+    justify-content: center;
+    margin: 0px 10% 0px 10%;
 }
 
-.img-box{
+.display-box .img-box{
     display: flex;
     border: 5px solid #3882F6;
-    justify-content: center;
-    vertical-align: top;
-    
     border-radius: 15px;
-    width: 200px;
     height: 200px;
+    flex: 1;
+    margin: 0px 30px;
+    flex-wrap: wrap;
     
 }
 
 .img-text{
-    padding: 8px;
+    margin: -600px 30%;
+    height: 100px;
     display: flex;
-    width: 200px;
-    background-color: white;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 10% 0px 10%;
+    padding: 8px;
+}
+
+.text-box{
+    margin: 0px 30px;
     text-align: center;
-    flex: 1;
-    color: grey;
+    margin-top: -50px;
+}
+
+.quote{
+    background-color: #E5E7EB;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.quote-text{
+    display: flex;
+    font-size: 36px;
+    padding: 5% 15% 5% 15%;
+    font-style: italic;
+    font-weight: 50;
+}
+
+.author{
+    display: flex;
+    margin-left: 55%;
+    font-weight: bolder;
 }
